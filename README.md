@@ -1,39 +1,44 @@
-# 🌸 تصنيف زهرة Iris باستخدام تعلم الآلة
+# 🌸 Iris Flower Classification Project
 
-## 📌 فكرة المشروع
-يهدف هذا المشروع إلى بناء نموذج يعتمد على تقنيات تعلم الآلة (Machine Learning) لتصنيف زهور Iris إلى أنواعها المختلفة، وذلك بالاعتماد على خصائص الزهرة الفيزيائية.
-
----
-
-## ⚙️ الأدوات والتقنيات المستخدمة
-- Python  
-- Pandas  
-- NumPy  
-- Scikit-learn  
-- Matplotlib  
-
-## 🧹 معالجة البيانات
-- تحميل بيانات Iris
-- تحليل الخصائص المختلفة للزهور
-- تجهيز البيانات للنموذج
-- تقسيم البيانات إلى:
-  - بيانات تدريب
-  - بيانات اختبار
+## 📖 Description
+This project focuses on building a Machine Learning model to classify Iris flowers into three species based on their physical characteristics.  
+It is a beginner-friendly project that demonstrates the full ML pipeline from data loading to model evaluation.
 
 ---
 
-## 🤖 نموذج تعلم الآلة
-- استخدام نموذج تصنيف (Classification)
-- تدريب النموذج على بيانات التدريب
-- اختبار النموذج على بيانات الاختبار
+## 🔍 Dataset Information
+The dataset contains 150 samples with the following features:
+- Sepal Length
+- Sepal Width
+- Petal Length
+- Petal Width
 
-## 📊 تقييم الأداء
-تم تقييم النموذج باستخدام:
-- Accuracy
-- Confusion Matrix
-- Classification Report
+Target classes:
+- Iris Setosa
+- Iris Versicolor
+- Iris Virginica
 
-## ✅ النتيجة
-يوضح المشروع كيفية استخدام تعلم الآلة في حل مشاكل التصنيف، مع التركيز على تحليل البيانات، تدريب النموذج، وتقييم الأداء.
+---
 
+## 🧠 Model & Approach
+- Data Preprocessing
+- Train-Test Split
+- Model Training using supervised learning
+- Model Evaluation using accuracy score
+
+---
+
+## 🛠 Tools & Libraries
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+
+---
+
+## 🎯 Project Goal
+To understand the basics of classification problems and how Machine Learning models make predictions based on data.
+
+---
 
